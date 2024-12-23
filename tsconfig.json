@@ -4,7 +4,16 @@
     "strict": true,
     "paths": {
       "@/*": [
-        "./*"
+        "./src/*"
+      ],
+      "@react-native/*": [
+        "./src/infrastructure/react-native/*"
+      ],
+      "@domain/*": [
+        "./src/domain/*"
+      ],
+      "@infrastructure/*": [
+        "./src/infrastructure/*"
       ]
     }
   },

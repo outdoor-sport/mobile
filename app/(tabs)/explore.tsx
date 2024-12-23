@@ -1,11 +1,11 @@
 import { StyleSheet, Image, Platform } from 'react-native';
 
-import { Collapsible } from '@/components/Collapsible';
-import { ExternalLink } from '@/components/ExternalLink';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
-import { IconSymbol } from '@/components/ui/IconSymbol';
+import { Collapsible } from '@react-native/components/Collapsible';
+import { ExternalLink } from '@react-native/components/ExternalLink';
+import ParallaxScrollView from '@react-native/components/ParallaxScrollView';
+import { ThemedText } from '@react-native/components/ThemedText';
+import { ThemedView } from '@react-native/components/ThemedView';
+import { IconSymbol } from '@react-native/components/ui/IconSymbol';
 
 export default function TabTwoScreen() {
   return (
