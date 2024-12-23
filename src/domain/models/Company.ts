@@ -21,6 +21,29 @@ export class Company {
     this.password = company.password;
     this.isCertified = false;
     this.isPremium = false;
+
+    if (!this.isSIRETValid) {
+      throw new Error("SIRET is not valid");
+    }
+  }
+
+  get isSIRETValid(): boolean {
+    if (this.SIRET.length !== 14) {
+      return false;
+    }
+
+    let verif = 0;
+
+    for (const char of this.SIRET) {
+      const num = parseInt(char);
+      if (num % 2 === 0) {
+        verif += num * 2;
+      } else {
+        verif += num;
+      }
+    }
+
+    return verif % 10 === 0;
   }
 }
 
