@@ -1,6 +1,6 @@
 import { SplashScreen, Stack } from "expo-router";
 
-import { useColorScheme } from '@react-native/hooks/useColorScheme';
+import { useColorScheme } from '@view/hooks/useColorScheme';
 import { useFonts } from "expo-font";
 import { useEffect } from "react";
 import { DarkTheme, DefaultTheme, ThemeProvider } from "@react-navigation/native";

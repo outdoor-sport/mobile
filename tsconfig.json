@@ -6,7 +6,7 @@
       "@/*": [
         "./*"
       ],
-      "@react-native/*": [
+      "@view/*": [
         "./src/infrastructure/react-native/*"
       ],
       "@domain/*": [

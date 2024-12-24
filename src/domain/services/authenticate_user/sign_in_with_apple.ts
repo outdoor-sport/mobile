@@ -1,6 +1,6 @@
-import { Http } from "@/domain/repositories/Http";
-import { AppleAuthenticationPort } from "@/domain/repositories/authenticate_user/authenticate_with_apple";
-import { User } from "@/domain/models/User";
+import { Http } from "@domain/repositories/Http";
+import { AppleAuthenticationPort } from "@domain/repositories/authenticate_user/authenticate_with_apple";
+import { User } from "@domain/models/User";
 
 export class SignInWithApple {
   constructor(

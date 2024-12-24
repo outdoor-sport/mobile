@@ -1,7 +1,7 @@
 import {
   AppleAuthenticationPort,
   AppleAuthenticationResult,
-} from "@/domain/repositories/authenticate_user/authenticate_with_apple";
+} from "@domain/repositories/authenticate_user/authenticate_with_apple";
 import {
   AppleAuthenticationScope,
   signInAsync,
