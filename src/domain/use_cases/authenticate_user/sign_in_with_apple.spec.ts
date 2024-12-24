@@ -1,4 +1,4 @@
-import { SignInWithApple } from "@domain/services/authenticate_user/sign_in_with_apple";
+import { SignInWithApple } from "@/src/domain/use_cases/authenticate_user/sign_in_with_apple";
 import { Http } from "@domain/repositories/Http";
 import { AppleAuthenticationPort } from "@domain/repositories/authenticate_user/authenticate_with_apple";
 import { User } from "@domain/models/User";

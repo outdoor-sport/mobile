@@ -1,4 +1,4 @@
-import { SignInWithApple } from "@domain/services/authenticate_user/sign_in_with_apple";
+import { SignInWithApple } from "@/src/domain/use_cases/authenticate_user/sign_in_with_apple";
 import { AppleAuthAdapter } from "@infrastructure/react-native/auth/apple/apple_auth_adapter";
 import { httpAxios } from "@infrastructure/instances/axios/httpAxios";
 import {
